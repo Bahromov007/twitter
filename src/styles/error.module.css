@@ -1,0 +1,18 @@
+.errorpage {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 101px;
+    max-width: 1920px;
+    border: 1px solid #918;
+}
+
+.container {
+    width: 1718px;
+    display: flex;
+}
+
+.Error {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

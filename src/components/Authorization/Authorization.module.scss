@@ -1,0 +1,146 @@
+.authorization {
+    width: 1920px;
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+.container {
+    max-width: 1750px;
+    // padding-right: 170px;
+}
+
+.top {
+    display: flex;
+}
+
+.left {
+    &__img {
+        width: 1121px;
+        margin-left: -8px;
+        margin-top: -8px;
+    }
+}
+
+.right {
+    width: 629px;
+}
+
+.block {
+    margin-left: 40px;
+    margin-top: 200px;
+
+    &__logo {
+        width: 50px;
+        margin-bottom: 57px;
+
+    }
+
+    &__h2 {
+        font-family: "Roboto";
+        font-size: 84px;
+        font-weight: 900;
+        line-height: 98px;
+        text-align: left;
+        width: 588px;
+        margin-bottom: 46px;
+        margin-top: 0;
+
+
+    }
+
+    &__h3 {
+        font-family: Roboto;
+        font-size: 42px;
+        font-weight: 900;
+        line-height: 49px;
+        text-align: left;
+        width: 343px;
+        margin-bottom: 31px;
+        margin-top: 0;
+
+    }
+
+    &__button {
+        width: 403px;
+        height: 62px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 9999px;
+        margin-bottom: 17px;
+        border: 0 solid black;
+        cursor: pointer;
+        background-color: white;
+        &:hover {
+            background-color: #d0d0d0;
+            transition: 300ms;
+        }
+
+    }
+
+    &__text1 {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        margin-top: 23px;
+
+    }
+
+    &__text2 {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        text-align: left;
+        display: flex;
+
+
+    }
+}
+
+.button {
+    &__text {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 23px;
+        text-align: left;
+
+    }
+}
+
+.link {
+    color: #1E97E1;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.footer {
+    margin: 0 auto;
+    width: 1481px;
+    height: 19px;
+    left: 220px;
+    top: 1043px;
+    display: flex;
+    justify-content: space-between;
+    
+    &__link {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: left;
+        color: black;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+    }
+}
