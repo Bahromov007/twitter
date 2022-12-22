@@ -37,7 +37,7 @@ export const Authorization: React.FC<IBannerProps> = ({
                   <h4 className={styles.button__text} >Sign up with phone or email</h4>
                 </button>
                 <p className={styles.block__text1}>By singing up you agree to the <a href="#" className={styles.link}>Terms of Service</a> and <a href="#" className={styles.link}>Privacy Policy</a>, including <a href="#" className={styles.link}>Cookie Use</a>.</p>
-                <p className={styles.block__text2}>Already have an account? <div className={styles.link} onClick={() => { setIsAuthModalOpen(true) }}>Log in</div></p>
+                <div className={styles.block__text2}>Already have an account? <div className={styles.link} onClick={() => { setIsAuthModalOpen(true) }}>Log in</div></div>
               </div>
             </div>
           </div>
